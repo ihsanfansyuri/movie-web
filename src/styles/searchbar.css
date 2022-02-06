@@ -1,0 +1,55 @@
+.search-container {
+  padding-left: 18px;
+  border-radius: 10px;
+}
+
+.search-container > input {
+  width: 60%;
+  padding: 16px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.search-container > input:focus {
+  outline: 0;
+}
+
+.search-container > button {
+  width: 15%;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 16px;
+  color: black;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.search-container > button:hover {
+  background-color: #c2c2c2;
+}
+
+.search-container > button:focus {
+  outline: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .search-container > input {
+    width: 80%;
+  }
+
+  .search-container > button {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .search-container > input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .search-container > button {
+    width: 100%;
+  }
+}
